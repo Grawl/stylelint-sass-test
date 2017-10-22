@@ -1,0 +1,17 @@
+{
+  "name": "stylelint-sass-test",
+  "version": "1.0.0",
+  "description": "Test Stylelint to handle Sass with indented syntax",
+  "scripts": {
+    "lint": "stylelint 'test/{*.scss,*.sass}'",
+    "lint-scss": "stylelint test/classic.scss",
+    "lint-sass": "stylelint test/regular.sass",
+    "lint-sass-one-liner": "stylelint test/one-liner.sass -q",
+    "lint-sass-specify-syntax": "stylelint test/regular.sass --custom-syntax postcss-sass",
+    "lint-sass-one-liner-specify-syntax": "stylelint test/one-liner.sass --custom-syntax postcss-sass"
+  },
+  "devDependencies": {
+    "postcss-sass": "^0.2.0",
+    "stylelint": "^8.2.0"
+  }
+}
