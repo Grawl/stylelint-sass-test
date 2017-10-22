@@ -1,7 +1,5 @@
 {
-  "name": "stylelint-sass-test",
-  "version": "1.0.0",
-  "description": "Test Stylelint to handle Sass with indented syntax",
+  "private": true,
   "scripts": {
     "lint": "stylelint 'test/{*.scss,*.sass}'",
     "lint-scss": "stylelint test/classic.scss",
