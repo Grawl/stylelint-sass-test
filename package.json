@@ -2,7 +2,8 @@
   "private": true,
   "scripts": {
     "lint-scss": "stylelint test/classic.scss",
-    "lint-sass": "stylelint test/regular.sass --custom-syntax postcss-sass"
+    "lint-sass": "stylelint test/regular.sass",
+    "lint-sass-complex": "stylelint test/complex.sass"
   },
   "devDependencies": {
     "postcss-sass": "^0.3.3",
