@@ -5,7 +5,7 @@
     "lint-sass": "stylelint test/regular.sass --custom-syntax postcss-sass"
   },
   "devDependencies": {
-    "postcss-sass": "^0.2.0",
-    "stylelint": "^8.2.0"
+    "postcss-sass": "^0.3.3",
+    "stylelint": "^9.7.0"
   }
 }
