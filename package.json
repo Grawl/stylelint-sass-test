@@ -3,10 +3,15 @@
   "scripts": {
     "lint-scss": "stylelint test/classic.scss",
     "lint-sass": "stylelint test/regular.sass",
-    "lint-sass-complex": "stylelint test/complex.sass"
+    "lint-sass-complex": "stylelint test/complex.sass",
+    "lint-sass-comments-1": "stylelint test/comments-1.sass",
+    "lint-sass-comments-2": "stylelint test/comments-2.sass",
+    "lint-sass-comments-3": "stylelint test/comments-3.sass",
+    "lint-sass-comments-4": "stylelint test/comments-4.sass",
+    "lint-sass-comments-all": "stylelint test/comments-all.sass"
   },
   "devDependencies": {
-    "postcss-sass": "^0.3.3",
-    "stylelint": "^9.7.0"
+    "postcss-sass": "^0.3.5",
+    "stylelint": "^9.7.1"
   }
 }
