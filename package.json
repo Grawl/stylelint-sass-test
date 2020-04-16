@@ -11,7 +11,7 @@
     "lint-sass-comments-all": "stylelint test/comments-all.sass"
   },
   "devDependencies": {
-    "postcss-sass": "^0.3.5",
-    "stylelint": "^9.7.1"
+    "postcss-sass": "^0.4.4",
+    "stylelint": "^13.3.2"
   }
 }
