@@ -4,10 +4,10 @@
     "lint-scss": "stylelint test/classic.scss",
     "lint-sass": "stylelint test/regular.sass",
     "lint-sass-complex": "stylelint test/complex.sass",
-    "lint-sass-comments-1": "stylelint test/comments-1.sass",
-    "lint-sass-comments-2": "stylelint test/comments-2.sass",
-    "lint-sass-comments-3": "stylelint test/comments-3.sass",
-    "lint-sass-comments-4": "stylelint test/comments-4.sass",
+    "lint-sass-comment-inline-start-of-file": "stylelint test/comment-inline-start-of-file.sass",
+    "lint-sass-comment-css-block-start-of-file": "stylelint test/comment-css-block-start-of-file.sass",
+    "lint-sass-comment-inline-block": "stylelint test/comment-inline-block.sass",
+    "lint-sass-comment-inline-after-rule": "stylelint test/comment-inline-after-rule.sass",
     "lint-sass-comments-all": "stylelint test/comments-all.sass"
   },
   "devDependencies": {
